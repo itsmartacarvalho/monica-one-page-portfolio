@@ -1,0 +1,46 @@
+@media screen and (min-width:768px){ 
+
+  .botoes {
+    float: right;
+  }
+
+
+  .coluna {
+    float: left;
+    width: 50%;
+  }
+
+
+  .linha::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .item {
+    width: 100%;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+
+  .cabecalho-sobre h1 {
+    font-size: 40px;
+  }
+
+  .centrado-com-margem {
+    margin: 0 20px;
+  }
+
+  .eu {
+    width: 100px;
+    height: 100px;
+  }
+
+  #logotipo {
+    width: 100%;
+    height: 100%;
+  }
+
+}

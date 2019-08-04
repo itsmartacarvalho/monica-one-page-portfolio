@@ -1,0 +1,39 @@
+@media screen and (min-width:320px){ 
+
+
+  .botoes {
+    float: left;
+  }
+
+
+  .coluna {
+    float: left;
+    width: 50%;
+  }
+
+
+  .linha::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .item {
+    width: 100%;
+  }
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+  .cabecalho-sobre h1 {
+    font-size: 40px;
+  }
+
+  .eu {
+    width: 75px;
+    height: 75px;
+  }
+
+}
